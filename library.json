@@ -1,0 +1,22 @@
+{
+  "name": "ve.direct_mppt",
+  "keywords": "victron, ve.direct, mppt, SensESP, Signal K, marine, boat, sensor, hardware, embedded, device",
+  "description": "Library to use Victron ve.direct interfaces with SignalK/SensESP",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/SensESP/ve.direct_mppt"
+  },
+  "authors":
+  [
+    {
+      "name": "Marco Bergman",
+      "email": "marcobergman@gmail.com",
+      "url": "https://github.com/marcobergman/",
+      "maintainer": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
