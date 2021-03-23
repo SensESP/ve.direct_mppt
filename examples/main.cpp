@@ -31,7 +31,7 @@ ReactESP app([]() {
 #elif defined(ESP32)
   uint8_t pin = 4;
   HardwareSerial* serial = &Serial1;
-  serial->begin(38400, SERIAL_8N1, pin, -1);
+  serial->begin(19200, SERIAL_8N1, pin, -1);
 #endif
 
   setup_vedirect(serial);
