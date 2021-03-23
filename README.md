@@ -23,7 +23,7 @@ lib_deps =
 
 6. Replace your Project's `main.cpp` file with the [example file](https://github.com/SensESP/ve.direct_mppt/blob/main/examples/main.cpp) that's included with this library.
 
-7. Modify your `main.cpp` to reflect the GPIO number of the pin that you have connected you ve.direct interface to. It is recommended to include galvanic isolation to connect the TxD of ve.direct interface to the GPIO pin.
+7. Modify your `main.cpp` to reflect the GPIO number of the pin that you have connected your ve.direct interface to. It is recommended to include galvanic isolation to connect the TxD of ve.direct interface to the GPIO pin.
 
 8. Build, upload, and test your Project.
 

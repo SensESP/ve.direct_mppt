@@ -12,6 +12,9 @@
 ReactESP app([]() {
   SensESPAppBuilder builder;
   sensesp_app = builder.set_standard_sensors(IP_ADDRESS) //or, IP_ADDRESS, UPTIME, NONE
+  // Uncomment the next 2 lines for direct configuration, preventing the 'captive portal':
+  //                  ->set_wifi("openplotter", "12345678")
+  //                  ->set_sk_server("10.10.10.1", 3000)
                     ->get_app();
 
 #ifndef SERIAL_DEBUG_DISABLED
